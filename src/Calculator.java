@@ -30,6 +30,9 @@ public class Calculator {
                 if (op == '*'){
                     ans = num1 * num2;
                 }
+                if (op == '^'){
+                    ans = (num1)^2;
+                }
                 if (op == '/'){
                     if(num2 !=0) ;
                         ans = num1/num2;
@@ -43,6 +46,7 @@ public class Calculator {
                 System.out.println("invalid operation:");
             }
             System.out.println(ans);
+
         }
 
     }
